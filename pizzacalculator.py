@@ -8,4 +8,8 @@ small = int(input(f"hoeveel small pizza's wilt u hebben ? (€{prijssmall}) : ")
 medium = int(input(f"hoeveel medium pizza's wilt u hebben ? (€{prijsmedium}) : "))
 large = int(input(f"hoeveel large pizza's wilt u hebben ? (€{prijslarge}) : "))
 
+print(f"Small: €{prijssmall*small}")
+print(f"Medium: €{prijsmedium*medium}")
+print(f"Large: €{prijslarge*large}")
+
 print (f"Je bestelling is in Totaal €{round((prijssmall * small) + (prijsmedium * medium) + (prijslarge * large), 2)}, kies een betaalmethode : ")
